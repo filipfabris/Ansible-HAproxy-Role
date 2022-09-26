@@ -20,7 +20,7 @@ haproxy_server_timeout: 50000
 
 # Extra default vars
 haproxy_default_vars:
-  - 'timeout client     1m'
+  - 'timeout client   1m'
 
 # Frontend settings.
 haproxy_frontend_name: 'hafrontend'
